@@ -8,6 +8,8 @@ int BasicIO () {
 	clog << "Log message: " << strClog << endl;
 
 	cout << "This is for show print" << endl;
+
+	return 0;
 }
 
 

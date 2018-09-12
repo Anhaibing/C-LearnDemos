@@ -10,6 +10,8 @@ int TimeShow () {
 	tm *gmtm = gmtime(&now);
 	dt = asctime(gmtm);
 	cout << "The UTC data and time is : " << dt << endl;
+
+	return 0;
 }
 
 
