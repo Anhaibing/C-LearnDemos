@@ -1,6 +1,7 @@
 #include <iostream>
 #include "TimeShow.h"
 #include "BasicIO.h"
+#include "DataStruct.h"
 
 using namespace std;
 
@@ -22,6 +23,9 @@ int main(int argc, char **argv) {
 			break;
 		case 2:
 			TimeShow();
+			break;
+		case 3:
+			initBooks();
 			break;
 		default:
 			cout << "Goodbye...\n" << endl;
