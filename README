@@ -1,0 +1,7 @@
+This is a C++ learn Demo pragram
+
+
+
+Usage:
+	1.compile:	./build.sh
+	2.clean:	./build.sh clean
