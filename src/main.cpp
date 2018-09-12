@@ -2,6 +2,7 @@
 #include "TimeShow.h"
 #include "BasicIO.h"
 #include "DataStruct.h"
+#include "ClassAndObj.h"
 
 using namespace std;
 
@@ -11,6 +12,7 @@ int Usage() {
 		<< "\tBasicIO:\t 1\n"
 		<< "\tTimeShow:\t 2\n"
 		<< "\tDataStruct:\t 3\n"
+		<< "\tClassAndObj\t 4\n"
 		<< endl;
 	cin >> choose;
 	return choose;
@@ -26,6 +28,9 @@ int main(int argc, char **argv) {
 			break;
 		case 3:
 			initBooks();
+			break;
+		case 4:
+			ClassMemberFunc();
 			break;
 		default:
 			cout << "Goodbye...\n" << endl;
