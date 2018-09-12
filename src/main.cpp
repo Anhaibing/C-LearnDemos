@@ -3,6 +3,7 @@
 #include "BasicIO.h"
 #include "DataStruct.h"
 #include "ClassAndObj.h"
+#include "Inhert.h"
 
 using namespace std;
 
@@ -13,6 +14,7 @@ int Usage() {
 		<< "\tTimeShow:\t 2\n"
 		<< "\tDataStruct:\t 3\n"
 		<< "\tClassAndObj\t 4\n"
+		<< "\tInhert\t 5\n"
 		<< endl;
 	cin >> choose;
 	return choose;
@@ -31,6 +33,9 @@ int main(int argc, char **argv) {
 			break;
 		case 4:
 			ClassMemberFunc();
+			break;
+		case 5:
+			InhertDemo();
 			break;
 		default:
 			cout << "Goodbye...\n" << endl;
